@@ -1,0 +1,10 @@
+job_name,split_version,adata_file,split_file,layer_name,subset_name,Dataset,Train on,Test on
+schmidt,stimulated,preprocessed.h5ad,split_trainonstimulated.csv,X,highly_variable,Schmidt,Re-stimulated,Resting
+schmidt,resting,preprocessed.h5ad,split_trainonresting.csv,X,highly_variable,Schmidt,Resting,Re-stimulated
+norman,combo_seensinglesbetter,preprocessed.h5ad,split_combo_seensingle2better.parquet,X,highly_variable,Norman,K562 (single),K562 (combo)
+nadig,hepg2,preprocessed.h5ad,split_trainonhepg2.csv,X,all,Nadig,Hep-G2,Jurkat
+nadig,jurkat,preprocessed.h5ad,split_trainonjurkat.csv,X,all,Nadig,Jurkat,Hep-G2
+replogle,k562,preprocessed.h5ad,split_trainonk562.csv,X,all,Replogle,K562,RPE1
+replogle,rpe1,preprocessed.h5ad,split_trainonrpe1.csv,X,all,Replogle,RPE1,K562
+replogle,k562_strong,preprocessed_strong.h5ad,split_trainonk562.csv,X,all,Replogle (strong perturbation),K562,RPE1
+replogle,rpe1_strong,preprocessed_strong.h5ad,split_trainonrpe1.csv,X,all,Replogle (strong perturbation),RPE1,K562
