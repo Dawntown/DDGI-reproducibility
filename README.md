@@ -1,6 +1,6 @@
 # DDGI Reproducibility
 
-This repository contains figure reproduction and analysis scripts for DDGI.
+This repository contains figure reproduction and analysis scripts for [DDGI](https://github.com/Dawntown/DDGI).
 
 The notebooks are organized by analysis section:
 
